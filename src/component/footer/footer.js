@@ -38,8 +38,24 @@ const Footer = () => {
     <>
       <div className="footer">
         <center>
-          <p className="text-head">contact me</p>
-          <div>
+         
+          
+        
+        <div className="email">
+        <h2 className="text-head">Send email here</h2>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="text-sub">
+            <input className="textarea-email" type="text" name="to_name" id="to_name"placeholder="Enter Your Topic" required/>
+            <input className="textarea-email" type="email" name="from_name" id="from_name" placeholder="Enter Your Email" required/>
+            <textarea className="textarea-email" name="message" id="message"placeholder="Enter Content" required/>
+            </div>
+            <span>
+            <input className="button-send" type="submit" value="Send" />
+            </span>
+          </form>
+
+        </div>
+        <div>
             <a href="https://www.github.com/ongzaza">
               <AiFillGithub className="icon" />
             </a>
@@ -50,21 +66,6 @@ const Footer = () => {
               <AiFillInstagram className="icon" />
             </a>
           </div>
-        
-        <div className="email">
-        <p className="text-head">Send email here</p>
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="text-sub">
-            <input className="textarea-email" type="text" name="to_name" id="to_name"placeholder="Enter Your Topic" required/>
-            <input className="textarea-email" type="email" name="from_name" id="from_name" placeholder="Enter Your Email" required/>
-            <textarea className="textarea-email" name="message" id="message"placeholder="Enter Content" required/>
-            </div><span>
-            <input className="button-send" type="submit" value="Send" />
-            </span>
-          </form>
-
-        </div>
-        
         </center>
       </div>
       

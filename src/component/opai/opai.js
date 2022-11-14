@@ -24,20 +24,20 @@ const Opai = () => {
 
   const toggleModal = () => {
     if (prompt == "") {
-      // notify (); 
+      
       Swal.fire({
         icon: 'error',
         title: 'Plz type something!',
-        // text: 'Plz type something!',
+        
       })
     } else {
     setModal(!modal);
     }
   };
 
-  const ing = () => {
+  const ing = () => { 
     toggleModal();
-    // generateImage();
+    generateImage();
   }
 
   const generateImage = async () => {
