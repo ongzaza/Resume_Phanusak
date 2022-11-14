@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./opai.css";
 import { Configuration, OpenAIApi } from "openai";
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 import Swal from 'sweetalert2';
 
 const Opai = () => {
@@ -10,7 +10,7 @@ const Opai = () => {
   const [dataAi, setdataAi] = useState("");
 
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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"
   });
   const openai = new OpenAIApi(configuration);
 
@@ -37,7 +37,7 @@ const Opai = () => {
 
   const ing = () => {
     toggleModal();
-    generateImage();
+    // generateImage();
   }
 
   const generateImage = async () => {
@@ -76,7 +76,7 @@ const Opai = () => {
         <div className="modal">
           <div className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
+            <h2 className="text-modalhead">Here your picture</h2>
              <img src={dataAi}></img> 
             <button className="close-modal" onClick={toggleModal}>
               CLOSE

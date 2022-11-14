@@ -111,6 +111,7 @@
   right: 0;
   bottom: 0;
   position: fixed;
+  border-radius: 20px;
 }
 
 .overlay {
@@ -134,6 +135,18 @@
   top: 10px;
   right: 10px;
   padding: 5px 7px;
+  background-color: #cf6679;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold",sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  /* height: 54px; */
 }
 .text-opai{
   font-size: 2cm;
@@ -146,4 +159,13 @@
       #bb86FC 4px 4px,
       #3700b3 8px 8px;
  }
-  
+
+ .text-modalhead{
+  /* font-size: 2cm; */
+  text-align: center;
+  margin-bottom: 5%;
+  transform: skewY(0);
+  color: #666666;
+
+
+ }
