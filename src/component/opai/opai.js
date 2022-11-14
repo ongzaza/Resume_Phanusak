@@ -10,7 +10,7 @@ const Opai = () => {
   const [dataAi, setdataAi] = useState("");
 
   const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: "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"
   });
   const openai = new OpenAIApi(configuration);
 
