@@ -1,0 +1,57 @@
+  /* .fade{
+    background-image: linear-gradient(
+      transparent 12%,
+      currentColor 30%,
+      currentColor 70%,
+      transparent 86%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    
+  }*/
+  /* .banner{
+    margin: 20px 0;
+    font-size: 20px ;
+    color: transparent;
+  } */
+ 
+  /* .container {
+    margin: auto;
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 30px;
+    margin-bottom: 10%;
+  } */
+
+ .pic{
+  display: flex;
+  margin: auto;
+    margin-top: 10%;
+    width: 220px;
+    height: 220px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    background-image: url(../../img/Profile.png);
+    background-size: 100%;  
+ }
+
+ .text1{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5cm;
+  text-align: center;
+  margin-top: 10%;
+  transform: skewY(0deg);
+  color: white;
+  text-shadow:
+      #bb86FC 4px 4px,
+      #3700b3 8px 8px;
+ }

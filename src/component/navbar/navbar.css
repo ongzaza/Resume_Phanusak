@@ -1,0 +1,76 @@
+.n-wrapper {
+    height: 10vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* background-color: ; */
+    top: 0;
+    /* position: fixed; */
+  }
+  .n-left {
+    flex: 1;
+    margin-left: 2%;
+    align-items: center;
+    justify-content:left;
+    display: flex;
+    gap: 2rem;
+    color:#404040;
+    text-shadow:
+      #bb86FC 4px 4px,
+      #3700b3 8px 8px;
+    
+  }
+  
+  .n-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+    
+  }
+  .n-right {
+    flex: 0.35;
+    display: flex;
+    align-items: center;
+  text-shadow:
+      #bb86FC 4px 4px,
+      #3700b3 8px 8px;
+    /* justify-content: right;
+    margin-right: 5%;
+    font-weight: 400; */
+  }
+  
+  .n-list {
+    flex: 3;
+    font-weight: bold;
+    color:#fff;
+    
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 3rem;
+    margin-right: 4rem;
+    
+
+  }
+  
+  .n-list > ul :hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+  .n-button {
+    flex: 1;
+  }
+  @font-face {
+    font-family: "AncientModernTales";
+    src: local("AncientModernTales-a7Po"),
+     url("../../font/AncientModernTales-a7Po.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+  @media screen and (max-width: 690px) {
+    .n-list {
+      display: none;
+    }
+  }

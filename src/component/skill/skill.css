@@ -1,0 +1,113 @@
+.progress {
+    background: #404040;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+    margin-bottom: 2%;
+
+    /* margin-left: 10%; */
+  }
+  
+  .progress-value1 {
+    animation: load1 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  
+  .progress-value2 {
+    animation: load2 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  .progress-value3 {
+    animation: load3 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  .progress-value4 {
+    animation: load4 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  .progress-value5 {
+    animation: load5 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  .progress-value6 {
+    animation: load6 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #bb86FC;
+    border-radius: 100px;
+    background: #bb86FC;
+    height: 30px;
+    width: 0;
+  }
+  @keyframes load1 {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  @keyframes load5 {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes load6 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+
+  /*Text*/
+
+  .text-skill{
+    font-size: 2cm;
+    text-align: center;
+    margin-top: 30%;
+    transform: skewY(0);
+    color: white;
+    text-shadow:
+      #bb86FC 4px 4px,
+      #3700b3 8px 8px;
+
+   }.subtext{
+    display:inline-block;
+    font-size:1cm;
+    text-align: center;
+    padding-inline: 1%;
+    transform: skewY(0);
+    color: white;
+    text-shadow:
+    #bb86FC 4px 4px,
+    #3700b3 8px 8px;
+   }
+
